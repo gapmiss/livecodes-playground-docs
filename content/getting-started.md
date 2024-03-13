@@ -1,6 +1,7 @@
 ---
 created: 2024-03-13
 title: Getting started
+description: Getting started with Livecodes Playground, a client-side code editor plugin for Obsidian.md.
 updated: 2024-03-13
 ---
 
