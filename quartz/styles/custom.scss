@@ -1,14 +1,17 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+p:has(a[data-slug="guide/creating-playgrounds"] a:hover),
 p:has(a[data-slug="guide/creating-playgrounds"]) {
 	display: grid;
 	place-content: end;
 }
 
+p:has(a[data-slug="getting-started"] a:hover),
 p:has(a[data-slug="getting-started"]) {
 	display: grid;
-	place-content: end space-between;
+	// place-content: end space-between;
+	place-content: space-between space-evenly;
 }
 
 @font-face {
