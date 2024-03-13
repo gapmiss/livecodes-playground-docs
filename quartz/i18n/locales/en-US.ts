@@ -30,13 +30,13 @@ export default {
       darkMode: "Dark mode",
     },
     explorer: {
-      title: "Explorer",
+      title: "Livecodes Playground",
     },
     footer: {
-      createdWith: "Created with",
+      createdWith: "Documentation powered by",
     },
     graph: {
-      title: "Graph View",
+      title: "Series View",
     },
     recentNotes: {
       title: "Recent Notes",
