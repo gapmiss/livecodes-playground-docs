@@ -88,10 +88,11 @@ a {
 
   &.external .external-icon {
     height: 1ex;
-    margin: 0 0.15em;
+    margin: 0 0.15em 0 .3em;
 
     > path {
-      fill: var(--dark);
+      // fill: var(--dark);
+      fill: var(--gray);
     }
   }
 }
