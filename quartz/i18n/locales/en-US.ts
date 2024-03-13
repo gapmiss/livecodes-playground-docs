@@ -22,7 +22,7 @@ export default {
       quote: "Quote",
     },
     backlinks: {
-      title: "Backlinks",
+      title: "Related",
       noBacklinksFound: "No backlinks found",
     },
     themeToggle: {
@@ -33,10 +33,10 @@ export default {
       title: "Livecodes Playground",
     },
     footer: {
-      createdWith: "Documentation powered by",
+      createdWith: "Powered by",
     },
     graph: {
-      title: "Series View",
+      title: "Graph view",
     },
     recentNotes: {
       title: "Recent Notes",
@@ -51,7 +51,7 @@ export default {
       searchBarPlaceholder: "Search for something",
     },
     tableOfContents: {
-      title: "Table of Contents",
+      title: "Table of content",
     },
     contentMeta: {
       readingTime: ({ minutes }) => `${minutes} min read`,
