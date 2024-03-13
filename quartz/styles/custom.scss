@@ -5,3 +5,12 @@ p:has(a[data-slug="guide/creating-playgrounds"]) {
 	display: grid;
 	place-content: end;
 }
+
+@font-face {
+	font-family: "myFirstFont";
+	src: url("/static/SNPro-Regular.woff2");
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "SN Pro";
+}
