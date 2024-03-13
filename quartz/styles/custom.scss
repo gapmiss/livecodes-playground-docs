@@ -7,10 +7,11 @@ p:has(a[data-slug="guide/creating-playgrounds"]) {
 }
 
 @font-face {
-	font-family: "myFirstFont";
+	font-family: "SN Pro Regular";
 	src: url("/static/SNPro-Regular.woff2");
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: "SN Pro";
+@font-face {
+	font-family: "Monaspace Krypton Var Regular";
+	src: url("/static/MonaspaceKryptonVarVF[wght,wdth,slnt].woff2");
 }
