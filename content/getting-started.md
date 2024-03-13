@@ -47,4 +47,4 @@ or:
 
 ---
 
-[[creating-playgrounds|Next: Creating playground]]
+[[creating-playgrounds|Next: Creating playgrounds]]

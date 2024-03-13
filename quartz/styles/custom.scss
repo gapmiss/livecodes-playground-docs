@@ -6,6 +6,11 @@ p:has(a[data-slug="guide/creating-playgrounds"]) {
 	place-content: end;
 }
 
+p:has(a[data-slug="getting-started"]) {
+	display: grid;
+	place-content: end space-between;
+}
+
 @font-face {
 	font-family: "SN Pro Regular";
 	src: url("/static/SNPro-Regular.woff2");
