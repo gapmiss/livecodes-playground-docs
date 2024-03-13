@@ -12,7 +12,7 @@ updated: 2024-03-13
 2. Open *Settings* > *Community Plugins* > *Browse*
 3. Search for "livecodes"
 
-### via BRAT (Beta Reviewer's Auto-update Tool)
+### BRAT (Beta Reviewer's Auto-update Tool)
 
 1. Ensure [BRAT](https://github.com/TfTHacker/obsidian42-brat) is installed
 2. Trigger the command `Obsidian42 - BRAT: Add a beta plugin for testing`

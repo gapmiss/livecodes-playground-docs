@@ -1,8 +1,9 @@
 ---
-title: Home sweet home
+title: Livecodes Playground docs
 created: 2024-03-13
 updated: 2024-03-13
 ---
 
+## Getting started
 
-# Home sweet home
+- [[getting-started]]
