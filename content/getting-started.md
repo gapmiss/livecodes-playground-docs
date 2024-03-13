@@ -44,3 +44,7 @@ or:
 	- default: `playgrounds`
 2. create a folder inside your vault for storing playground markdown notes (`*.MD`)
 	- default: `playgrounds/notes`
+
+---
+
+[[creating-playgrounds|Next: Creating playground]]
