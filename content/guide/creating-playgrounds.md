@@ -4,15 +4,32 @@ title: Creating playgrounds
 updated: 2024-03-13
 ---
 
-### New playground
+## New playground
 
 New playgrounds can be created via:
 
-- `New playground` - (*command*) opens a prompt for the playground name, markup language, style language, CSS processors, and script language.
-	<details style="margin-block: 1em;"><summary>Screenshot</summary><p><img src="/assets/img/LIVECODES-Obsidian-v1.5.8-2024-03-05-12.41.54.png" alt="screenshot of new playground modal" /></p></details>
+### Command
 
-- `Quick playground` - (*command*) and (*ribbon menu*) open a prompt for the playground name. The default markup, style, & script languages can be configured in the settings.
-	<details style="margin-block: 1em;"><summary>Screenshot</summary><p><img src="/assets/img/LIVECODES-Obsidian-v1.5.8-2024-03-05-12.43.59.png" alt="screenshot of quick playground modal" /></p></details>
+#### `New playground`
+
+Opens a prompt for the playground name, markup language, style language, CSS processors, and script language.
+
+  ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.41.54.png]]
+
+#### `Quick playground`
+
+Opena a prompt for the playground name. The default markup, style, & script languages can be configured in the settings.
+
+![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.43.59.png]]
+
+### Ribbon icon
+
+#### `Quick playground`
+
+Click the ribbon icon <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7852ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> which opens a prompt for the playground name. The default markup, style, & script languages can be configured in the settings.
+
+![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.43.59.png]]
+
 
 - `Open starter playground` (*command*) opens a suggestion prompt with a list of simple starter playgrounds. These starter include `_hyperscript`, `Alpine.js`, `Angular`, `Arrow.JS`, `Astro`, `Bootstrap 5`, `Bulma (CSS)`, `C++`, `HTMX`, `Javascript`, `jQuery`, `Lemonade.JS`, `Lit`, `Lua`, `Lua (wasm)`, `Markdown`, `MDX`, `modulo.js`, `Open-props (CSS)`, `Perl`, `PHP`, `PHP (wasm)`, `Python`, `Python (wasm)`, `React`, `React Native`, `Reef.js`, `Riot.js`, `Ruby`, `SCSS`, `Solid.js`, `Stellar`, `Stencil.js`, `Svelte`, `Tailwind CSS`, `Typescript`, `VanJS`, `Vue 2`, `Vue 3 SFC`
 
