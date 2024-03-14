@@ -41,7 +41,8 @@ li::marker {
 	color: var(--gray);
 }
 .search>#search-icon svg {
-	stroke: var(--gray);
+	// stroke: var(--gray) !important;
+	fill: var(--gray) !important;
 }
 
 /**
