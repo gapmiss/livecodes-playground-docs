@@ -10,7 +10,7 @@ Livecodes playground, an open-source client-side code editor plugin for [Obsidia
 
 <div style="display: grid; place-items: center; margin-block: .1em;"><img src="https://livecodes.io/docs/img/livecodes-logo.svg" style="width:88px;" alt="LiveCodes logo"></div>
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-05-17.20.49.png]]
+![[LIVECODES-Obsidian-v1.5.8-2024-03-05-17.20.49.png|screenshot of Livecodes Playground editor]]
 
 Read about [why Livecodes](https://livecodes.io/docs/why), it's [features](https://livecodes.io/docs/features/) and [how to self-host](https://livecodes.io/docs/features/self-hosting)
 
