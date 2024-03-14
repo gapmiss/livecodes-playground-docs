@@ -41,7 +41,7 @@ li::marker {
 	color: var(--gray);
 }
 .search svg.search-path {
-	stroke: var(--gray);
+	stroke: var(--gray) !important;
 }
 
 /**
