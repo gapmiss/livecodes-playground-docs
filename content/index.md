@@ -1,14 +1,14 @@
 ---
 title: Home
 created: 2024-03-13
-updated: 2024-03-13
+updated: 2024-03-14
 ---
 
 Livecodes playground, an open-source client-side code editor plugin for [Obsidian.md](https://obsidian.md).
 
 <div style="text-align: center;">Powered by  <a href="https://livecodes.io/docs/" class="external-link" target="_blank">LiveCodes</a></div>
 
-<div style="display: grid; place-items: center; margin-block: .1em;"><img src="https://livecodes.io/docs/img/livecodes-logo.svg" style="width:88px;"></div>
+<div style="display: grid; place-items: center; margin-block: .1em;"><img src="https://livecodes.io/docs/img/livecodes-logo.svg" style="width:88px;" alt="LiveCodes logo"></div>
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-17.20.49.png]]
 

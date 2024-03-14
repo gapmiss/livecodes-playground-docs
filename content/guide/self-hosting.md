@@ -42,7 +42,7 @@ If you wish to host the app on Github pages, the base URL of the documentation d
 npx cross-env DOCS_BASE_URL="/playground/docs/" npm run build
 ```
 
-#### Complete these steps before deploying via `npm run deploy`
+> [!SUCCESS] Complete these steps before deploying via `npm run deploy`
 
 1. Under your Github profile, navigate to **Settings** &gt; **Developer settings** &gt; **Fine-grained tokens**.
 
@@ -77,7 +77,7 @@ npx cross-env DOCS_BASE_URL="/playground/docs/" npm run build
 15. Choose the **Source** &gt; **Deploy from a branch**.
 
 16. Select the `gh-pages` branch with `/(root)` folder and click the **Save** button.
-17. After some time (~5-30 minutes) the page will refresh with:
+17. After some time, the page will refresh with:
     - Your site is live at `https://{your-username}.github.io/livecodes/`
     - Click the **Visit site** button to see the deployed Livecodes instance hosted by Github
 
