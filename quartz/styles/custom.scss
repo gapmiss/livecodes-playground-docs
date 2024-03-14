@@ -39,6 +39,7 @@ li::marker {
 
 .search > #search-container > #search-space > input     {
 	color: var(--gray);
+	border: 1px solid var(--secondary) !important;
 }
 .search {
 	& svg {
