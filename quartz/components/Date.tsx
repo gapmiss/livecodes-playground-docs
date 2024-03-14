@@ -27,5 +27,5 @@ export function formatDate(d: Date, locale: ValidLocale = "en-US"): string {
 }
 
 export function Date({ date, locale }: Props) {
-  return <>Updated: {formatDate(date, locale)}</>
+  return <>{formatDate(date, locale)}</>
 }
