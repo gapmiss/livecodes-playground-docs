@@ -50,14 +50,11 @@ li::marker {
 		}
 	}
 }
-[data-line]::before {
-	color: transparent;
-	display: none;
-}
 
 pre {
   code {
     & > [data-line] {
+			padding-inline-start: 1em !important;
       &::before {
 				display: none !important;
       }
