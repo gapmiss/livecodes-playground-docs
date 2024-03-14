@@ -47,6 +47,10 @@ li::marker {
 		}
 	}
 }
+.data-line::before {
+	display: none;
+}
+
 
 /**
  * src: https://codepen.io/ines/pen/KMGJrP
