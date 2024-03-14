@@ -61,13 +61,6 @@ Via right-click (`ctrl`+`click`) for supported file extensions. Supported extens
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.35.49.png]]
 
-### Codeblock context menu
-
-#### Open in Livecodes
-
-Via right-click (`ctrl`+`click`) in supported fenced codeblocks. Reading mode ONLY. Supported languages include `html`, `mdx`, `css`, `scss`, `javascript`, `js`, `jsx`, `typescript`, `ts`, `tsx`, `astro`, `svelte`.
-
-![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.01.55.png]]
 
 ### File explorer folder context menu
 
@@ -77,6 +70,13 @@ Via right-click (`ctrl`+`click`) for folders containing supported files. Support
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.33.31.png]]
 
+### Codeblock context menu
+
+#### Open in Livecodes
+
+Via right-click (`ctrl`+`click`) in supported fenced codeblocks. Reading mode ONLY. Supported languages include `html`, `mdx`, `css`, `scss`, `javascript`, `js`, `jsx`, `typescript`, `ts`, `tsx`, `astro`, `svelte`.
+
+![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.01.55.png]]
 
 ### Obsidian URI
 
