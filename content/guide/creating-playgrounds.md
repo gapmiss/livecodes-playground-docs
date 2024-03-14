@@ -51,28 +51,31 @@ Click the ribbon icon <svg xmlns="http://www.w3.org/2000/svg" width="22" height=
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.43.59.png]]
 
-### File explorer context menu
+### Context menu
 
 > [!IMPORTANT]
 > The below context menu options are only available when all file extensions are detected by Obsidian. Open `Settings` &gt; `File and links` and enable `Detect all file extensions` ![screenshot of settings](LIVECODES-Obsidian-v1.5.8-2024-03-05-14.34.51.png)
-#### Open in Livecodes
+
+#### File explorer context menu
+
+##### Open in Livecodes
 
 Via right-click (`ctrl`+`click`) for supported file extensions. Supported extensions include `html`, `mdx`, `css`, `scss`, `js`, `jsx`, `ts`, `tsx`, `astro`, `svelte`.
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.35.49.png]]
 
 
-### File explorer folder context menu
+#### File explorer folder context menu
 
-#### Open in Livecodes
+##### Open in Livecodes
 
 Via right-click (`ctrl`+`click`) for folders containing supported files. Supported file extensions include `html`, `mdx`, `css`, `scss`, `js`, `jsx`, `ts`, `tsx`, `astro`, `svelte`. To activate the menu, the folder must have 1-3 files with the supported extensions. e.g. (`index.html`, `style.css`, `main.js`)
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.33.31.png]]
 
-### Codeblock context menu
+#### Codeblock context menu
 
-#### Open in Livecodes
+##### Open in Livecodes
 
 Via right-click (`ctrl`+`click`) in supported fenced codeblocks. Reading mode ONLY. Supported languages include `html`, `mdx`, `css`, `scss`, `javascript`, `js`, `jsx`, `typescript`, `ts`, `tsx`, `astro`, `svelte`.
 

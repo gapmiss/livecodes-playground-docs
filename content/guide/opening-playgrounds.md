@@ -11,7 +11,7 @@ Playgrounds can be opened via:
 
 ### Command
 
-### Open playground
+#### Open playground
 
 Opens a playground fuzzy search prompt:
 
