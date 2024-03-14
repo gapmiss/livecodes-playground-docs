@@ -11,8 +11,8 @@
 }
 
 div.search-space input::placeholder,
-div.search-icon p {
-	color: var(--gray)
+div.search-icon > p {
+	color: var(--gray) !important;
 }
 
 .page-title a {
@@ -32,5 +32,5 @@ a.internal {
 }
 
 li::marker {
-	color: lime;
+	color: var(--gray);
 }
