@@ -215,7 +215,7 @@ export function renderPage(
     <html lang={lang}>
       <Head {...componentData} />
       <body data-slug={slug}>
-        <div class="scroll-indicator"></div>
+        {/*<div class="scroll-indicator"></div>*/}
         <div id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}
