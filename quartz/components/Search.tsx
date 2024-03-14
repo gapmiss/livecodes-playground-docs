@@ -31,7 +31,7 @@ export default ((userOpts?: Partial<SearchOptions>) => {
           >
             <title id="title">Search</title>
             <desc id="desc">Search</desc>
-            <g class="search-path" fill="none" stroke="#b8b8b8">
+            <g class="search-path" fill="none">
               <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4" />
               <circle cx="8" cy="8" r="7" />
             </g>

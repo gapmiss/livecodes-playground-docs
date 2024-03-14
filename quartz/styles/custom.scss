@@ -40,9 +40,12 @@ li::marker {
 .search > #search-container > #search-space > input     {
 	color: var(--gray);
 }
-.search>#search-icon svg {
-	stroke: var(--gray) !important;
-	// fill: var(--gray) !important;
+.search {
+	& svg {
+		.search-path {
+			stroke: var(--gray);
+		}
+	}
 }
 
 /**
