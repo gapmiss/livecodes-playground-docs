@@ -12,7 +12,7 @@
 
 div#search-space input::placeholder,
 div#search-icon > p {
-	color: var(--gray) !important;
+	color: var(--darkgray) !important;
 }
 
 .page-title a {
@@ -34,14 +34,14 @@ a.internal {
 }
 
 li::marker {
-	color: var(--gray);
+	color: var(--darkgray);
 }
 
 .search > #search-container > #search-space > input:focus {
 	outline: 2px solid var(--secondary) !important;
 }
 .search > #search-container > #search-space > input     {
-	color: var(--gray);
+	color: var(--darkgray);
 }
 .search {
 	& svg {
