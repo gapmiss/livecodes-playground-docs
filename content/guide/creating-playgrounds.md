@@ -34,7 +34,7 @@ Opens a prompt for a Codepen URL and attempts to import the pen and create a new
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-12-08.19.46.png]]
 
-> [!attention]+ Notice:
+> [!ATTENTION]+ Notice
 > The `New playground from Codepen` command is experimental and is dependent on Codepen's source code for presenting pens. If Codepen's changes their HTML code, the command could stop working.
 
 #### Open codeblocks in Livecodes
@@ -53,7 +53,7 @@ Click the ribbon icon <svg xmlns="http://www.w3.org/2000/svg" width="22" height=
 
 ### Context menu
 
-> [!IMPORTANT]
+> [!INFO] Note
 > The below context menu options are only available when all file extensions are detected by Obsidian. Open `Settings` &gt; `File and links` and enable `Detect all file extensions` ![screenshot of settings](LIVECODES-Obsidian-v1.5.8-2024-03-05-14.34.51.png)
 
 #### File explorer context menu
