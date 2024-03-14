@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Livecodes Playground docs",
+    pageTitle: "livecodes-playground",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
