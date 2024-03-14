@@ -15,7 +15,7 @@ Playgrounds can be opened via:
 
 Opens a playground fuzzy search prompt:
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-05-17.02.09.png|screenshot of Open playground Command]]
+![[LIVECODES-Obsidian-v1.5.8-2024-03-05-17.02.09.webp|screenshot of Open playground Command]]
 
 ### Ribbon icon
 
@@ -23,7 +23,7 @@ Opens a playground fuzzy search prompt:
 
 Click the ribbon icon <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7852ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-code-2"><path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="m5 12-3 3 3 3"/><path d="m9 18 3-3-3-3"/></svg> which opens a playground fuzzy search prompt:
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-05-17.02.09.png|screenshot of Open playground Command]]
+![[LIVECODES-Obsidian-v1.5.8-2024-03-05-17.02.09.webp|screenshot of Open playground Command]]
 
 ### File explorer context menu
 
@@ -33,9 +33,9 @@ Right-click (`ctrl`+`click`) playground config files (`*.JSON`) inside of the `p
 
 
 > [!IMPORTANT]
-> Context menu options are only available when all file extensions are detected by Obsidian. Open `Settings` &gt; `File and links` and enable `Detect all file extensions` ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-14.34.51.png|screenshot of Obsidian settings]]
+> Context menu options are only available when all file extensions are detected by Obsidian. Open `Settings` &gt; `File and links` and enable `Detect all file extensions` ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-14.34.51.webp|screenshot of Obsidian settings]]
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-05-17.10.19.png||screenshot of file explorer context menu]]
+![[LIVECODES-Obsidian-v1.5.8-2024-03-05-17.10.19.webp||screenshot of file explorer context menu]]
 
 ### Obsidian URI
 

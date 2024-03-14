@@ -14,13 +14,13 @@ New playgrounds can be created via:
 
 Opens a prompt for the playground name, markup language, style language, CSS processors, and script language.
 
-  ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.41.54.png|screenshot of New playground modal]]
+  ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.41.54.webp|screenshot of New playground modal]]
 
 #### Quick playground
 
 Opena a prompt for the playground name. The default markup, style, & script languages can be configured in the settings.
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.43.59.png|screenshot of Quick playground input]]
+![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.43.59.webp|screenshot of Quick playground input]]
 
 #### Open starter playground
 
@@ -30,9 +30,9 @@ Opens a suggestion prompt with a list of simple starter playgrounds. These start
 
 Opens a prompt for a Codepen URL and attempts to import the pen and create a new playground.
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-12-08.19.31.png|screenshot of New playground from Codepen command]]
+![[LIVECODES-Obsidian-v1.5.8-2024-03-12-08.19.31.webp|screenshot of New playground from Codepen command]]
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-12-08.19.46.png|screenshot of Codepen URL input]]
+![[LIVECODES-Obsidian-v1.5.8-2024-03-12-08.19.46.webp|screenshot of Codepen URL input]]
 
 > [!ATTENTION]+ Notice
 > The `New playground from Codepen` command is experimental and is dependent on Codepen's source code for presenting pens. If Codepen's changes their HTML code, the command could stop working.
@@ -41,7 +41,7 @@ Opens a prompt for a Codepen URL and attempts to import the pen and create a new
 
 Live-preview and Source mode. The command parses the markdown note for codeblocks and will attempt to create a new playground with 1-3 codeblocks (markup, style, script) based on the codeblock's language. Supported languages include `html`, `mdx`, `css`, `scss`, `javascript`, `js`, `jsx`, `typescript`, `ts`, `tsx`, `astro`, `svelte`.
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-12-08.54.16.png|screenshot of Open codeblocks in Livecodes command]]
+![[LIVECODES-Obsidian-v1.5.8-2024-03-12-08.54.16.webp|screenshot of Open codeblocks in Livecodes command]]
 
 ### Ribbon icon
 
@@ -49,12 +49,12 @@ Live-preview and Source mode. The command parses the markdown note for codeblock
 
 Click the ribbon icon <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7852ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> which opens a prompt for the playground name. The default markup, style, & script languages can be configured in the settings.
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.43.59.png|screenshot of New playground prompt]]
+![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.43.59.webp|screenshot of New playground prompt]]
 
 ### Context menu
 
 > [!INFO] Note
-> The below context menu options are only available when all file extensions are detected by Obsidian. Open `Settings` &gt; `File and links` and enable `Detect all file extensions` ![screenshot of Obsidian settings](LIVECODES-Obsidian-v1.5.8-2024-03-05-14.34.51.png)
+> The below context menu options are only available when all file extensions are detected by Obsidian. Open `Settings` &gt; `File and links` and enable `Detect all file extensions` ![screenshot of Obsidian settings](LIVECODES-Obsidian-v1.5.8-2024-03-05-14.34.51.webp)
 
 #### File explorer context menu
 
@@ -62,7 +62,7 @@ Click the ribbon icon <svg xmlns="http://www.w3.org/2000/svg" width="22" height=
 
 Via right-click (`ctrl`+`click`) for supported file extensions. Supported extensions include `html`, `mdx`, `css`, `scss`, `js`, `jsx`, `ts`, `tsx`, `astro`, `svelte`.
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.35.49.png|screenshot of Open in Livecodes context menu]]
+![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.35.49.webp|screenshot of Open in Livecodes context menu]]
 
 
 #### File explorer folder context menu
@@ -71,7 +71,7 @@ Via right-click (`ctrl`+`click`) for supported file extensions. Supported extens
 
 Via right-click (`ctrl`+`click`) for folders containing supported files. Supported file extensions include `html`, `mdx`, `css`, `scss`, `js`, `jsx`, `ts`, `tsx`, `astro`, `svelte`. To activate the menu, the folder must have 1-3 files with the supported extensions. e.g. (`index.html`, `style.css`, `main.js`)
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.33.31.png|screenshot of Open in Livecodes context menu]]
+![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.33.31.webp|screenshot of Open in Livecodes context menu]]
 
 #### Codeblock context menu
 
@@ -79,7 +79,7 @@ Via right-click (`ctrl`+`click`) for folders containing supported files. Support
 
 Via right-click (`ctrl`+`click`) in supported fenced codeblocks. Reading mode ONLY. Supported languages include `html`, `mdx`, `css`, `scss`, `javascript`, `js`, `jsx`, `typescript`, `ts`, `tsx`, `astro`, `svelte`.
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.01.55.png|screenshot of Open in Livecodes context menu]]
+![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.01.55.webp|screenshot of Open in Livecodes context menu]]
 
 ### Obsidian URI
 
