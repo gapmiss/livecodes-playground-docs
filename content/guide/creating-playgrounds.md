@@ -1,7 +1,7 @@
 ---
 created: 2024-03-13
 title: Creating playgrounds
-updated: 2024-03-13
+updated: 2024-03-14
 ---
 
 ## New playground
@@ -59,11 +59,11 @@ Via right-click (`ctrl`+`click`) for supported file extensions. Supported extens
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.35.49.png]]
 
-### File explorer file context menu
+### Codeblock context menu
 
 #### Open in Livecodes
 
-Via right-click (`ctrl`+`click`) in supported fenced code blocks. Reading mode ONLY. Supported languages include `html`, `mdx`, `css`, `scss`, `javascript`, `js`, `jsx`, `typescript`, `ts`, `tsx`, `astro`, `svelte`.
+Via right-click (`ctrl`+`click`) in supported fenced codeblocks. Reading mode ONLY. Supported languages include `html`, `mdx`, `css`, `scss`, `javascript`, `js`, `jsx`, `typescript`, `ts`, `tsx`, `astro`, `svelte`.
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.01.55.png]]
 
@@ -71,7 +71,7 @@ Via right-click (`ctrl`+`click`) in supported fenced code blocks. Reading mode O
 
 #### Open in Livecodes
 
-Via right-click (`ctrl`+`click`) for folder containing supported files. Supported file extensions include `html`, `mdx`, `css`, `scss`, `js`, `jsx`, `ts`, `tsx`, `astro`, `svelte`. To activate the menu, the folder must have 1-3 files with the supported extensions. e.g. (`index.html`, `style.css`, `main.js`)
+Via right-click (`ctrl`+`click`) for folders containing supported files. Supported file extensions include `html`, `mdx`, `css`, `scss`, `js`, `jsx`, `ts`, `tsx`, `astro`, `svelte`. To activate the menu, the folder must have 1-3 files with the supported extensions. e.g. (`index.html`, `style.css`, `main.js`)
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-12.33.31.png]]
 
