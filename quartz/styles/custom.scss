@@ -36,3 +36,10 @@ a.internal {
 li::marker {
 	color: var(--gray);
 }
+
+.search > #search-container > #search-space > input     {
+	color: var(--gray);
+}
+svg.search-path {
+	stroke: var(--gray);
+}
