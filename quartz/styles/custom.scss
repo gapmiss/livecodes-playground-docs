@@ -54,9 +54,8 @@ svg.search-path {
     position: absolute;
     top: 0;
     left: 0;
-    // background: linear-gradient(to right top, #e4514f, #5400ff 50%, transparent 50%) no-repeat;
-    background: var(--tertiary);
-    // z-index: -1;
+    background: linear-gradient(to right top, var(--secondary), var(--tertiary) 50%, transparent 50%) no-repeat;
+    z-index: 111111;
     background-size: 100% calc(100% - 100vh + 5px);
   }
   .scroll-indicator:before {
