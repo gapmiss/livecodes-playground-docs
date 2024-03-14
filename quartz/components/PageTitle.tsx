@@ -17,6 +17,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
 PageTitle.css = `
 .page-title {
   margin: 0;
+  vertical-align: top;
 }
 `
 
