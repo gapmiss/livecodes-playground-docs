@@ -20,5 +20,17 @@ div.search-icon p {
 }
 
 .center article {
-	line-height: 1.7;
+	line-height: 1.8rem;
+}
+
+a.internal {
+	text-decoration: none;
+	background-color: transparent;
+	padding: 0 0.1rem;
+	border-radius: 5px;
+	line-height: 1.4rem;
+}
+
+li::marker {
+	color: lime;
 }
