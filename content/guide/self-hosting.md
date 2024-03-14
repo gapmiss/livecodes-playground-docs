@@ -57,7 +57,6 @@ npx cross-env DOCS_BASE_URL="/playground/docs/" npm run build
 6. Click the **Generate token** button at the bottom of the page.
 
     > [!warning] NOTICE
-    > 
     > Your token will be generated. **Make sure to copy your personal access token now** as you will not be able to see it again.
 
 7. Go to `https://github.com/{your-username}/livecodes`
