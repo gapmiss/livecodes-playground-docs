@@ -62,6 +62,7 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options> | undefined> =
                 classes.push(isExternal ? "external" : "internal")
 
                 if (isExternal && opts.externalLinkIcon) {
+                  node.properties.target = "_blank";
                   node.children.push({
                     type: "element",
                     tagName: "svg",
@@ -89,7 +90,7 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options> | undefined> =
                   node.children[0].value !== dest
                 ) {
                   // Add the 'alias' class if the text content is not the same as the href
-                  classes.push("alias")
+                  // classes.push("alias")
                 }
                 node.properties.className = classes
 
