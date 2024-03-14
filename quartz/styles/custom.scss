@@ -55,6 +55,18 @@ li::marker {
 	display: none;
 }
 
+pre {
+  code {
+    & > [data-line] {
+      &::before {
+				display: none !important;
+      }
+    }
+	}
+}
+
+
+
 
 /**
  * src: https://codepen.io/ines/pen/KMGJrP
