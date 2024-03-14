@@ -9,3 +9,8 @@
 	font-family: "Monaspace Krypton Var Regular";
 	src: url("/static/MonaspaceKryptonVarVF[wght,wdth,slnt].woff2");
 }
+
+div.search-space input::placeholder,
+div.search-icon p {
+	color: var(--gray)
+}
