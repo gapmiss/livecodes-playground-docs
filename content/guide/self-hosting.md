@@ -35,7 +35,9 @@ npm start
 
 ### Build and publish to Github
 
-If you wish to host the app on Github pages (e.g. `https://{your-username}.github.io/playground/`), the base URL of the documentation directory needs to be supplied by the environment variable `DOCS_BASE_URL` during build.
+If you wish to host the app on Github pages,
+(e.g. `https://{your-username}.github.io/playground/`),
+the base URL of the documentation directory needs to be supplied by the environment variable `DOCS_BASE_URL` during build.
 
 ```bash
 npx cross-env DOCS_BASE_URL="/playground/docs/" npm run build
