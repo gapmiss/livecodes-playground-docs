@@ -47,8 +47,8 @@ export default {
       linkToOriginal: "Link to original",
     },
     search: {
-      title: "Search",
-      searchBarPlaceholder: "Search for something",
+      title: "Search (<kbd>⌘</kbd>+<kbd>K</kbd>)",
+      searchBarPlaceholder: "Search term(s)",
     },
     tableOfContents: {
       title: "Table of contents",

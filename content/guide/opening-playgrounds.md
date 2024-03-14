@@ -11,7 +11,7 @@ Playgrounds can be opened via:
 
 ### Command
 
-### `Open playground`
+### Open playground
 
 Opens a playground fuzzy search prompt:
 
@@ -19,7 +19,7 @@ Opens a playground fuzzy search prompt:
 
 ### Ribbon icon
 
-#### `Open playground`
+#### Open playground
 
 Click the ribbon icon <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7852ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-code-2"><path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="m5 12-3 3 3 3"/><path d="m9 18 3-3-3-3"/></svg> which opens a playground fuzzy search prompt:
 
@@ -27,7 +27,7 @@ Click the ribbon icon <svg xmlns="http://www.w3.org/2000/svg" width="22" height=
 
 ### File explorer context menu
 
-#### `Open playground`
+#### Open playground
 
 Right-click (`ctrl`+`click`) playground config files (`*.JSON`) inside of the `playground` folder (see: [[getting-started#initial=setup|Getting started]]).
 
@@ -38,8 +38,21 @@ Right-click (`ctrl`+`click`) playground config files (`*.JSON`) inside of the `p
 
 ### Obsidian URI
 
-#### Obsidian `URI`
+#### `playgroundPath`
 
-Create a new playground via JSON configuration file path. The Obsidian URL expects 2 parameters, `vault` and `playgroundPath` formatted as `obsidian://playground?vault=VAULTNAME&playgroundPath=VAULT_PATH_TO_JSON` The `URI` needs to be URI encoded (see: [Obsidian Help](https://help.obsidian.md/Extending+Obsidian/Obsidian+URI))
+Open a playground via JSON configuration file path. The Obsidian URI expects 2 parameters, `vault` and `playgroundPath` formatted as `obsidian://playground?vault=VAULTNAME&playgroundPath=VAULT_PATH_TO_JSON` The `URI` needs to be URI encoded (see: [Obsidian Help](https://help.obsidian.md/Extending+Obsidian/Obsidian+URI))
 
 For example: `obsidian://playground?vault=VAULTNAME&playgroundPath=playgrounds/playground.json`
+
+#### `gistUrl`
+
+Open a playground via importing of a raw JSON configuration file, easily hosted as a Github gist. The Obsidian URI expects 2 parameters, `vault` and `gistUrl` formatted as `obsidian://playground?vault=VAULTNAME&gistUrl=RAW_JSON_URL` The `URI` needs to be URI encoded (see: [Obsidian Help](https://help.obsidian.md/Extending+Obsidian/Obsidian+URI))
+
+For example: `obsidian://playground?vault=Playground&gistUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fgapmiss%2Ff558657bcde37c677724004c36ed8dcd%2Fraw%2Ff8a7173bbd17d0886534c2f2017385a5fb3cff48%2FJavascript_starter.json`
+
+
+---
+
+[[creating-playgrounds|Previous: Creating Playground]]
+
+%% [[opening-playgrounds|Next: Opening playgrounds]] %%
