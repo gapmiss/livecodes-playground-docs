@@ -18,5 +18,6 @@ Read about [why Livecodes](https://livecodes.io/docs/why), it's [features](https
 
 > [!IMPORTANT]
 > The Livecodes codebase can be self-hosted but is not 100% off-line. Internet connection is required.
+> - [[self-hosting|Learn how to self-host with Github pages]]
 
 [[getting-started|Next: Getting started]]
