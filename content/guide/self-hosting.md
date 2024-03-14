@@ -1,7 +1,7 @@
 ---
 created: 2024-03-13
 title: Self hosting
-updated: 2024-03-13
+updated: 2024-03-14
 ---
 
 See the [Self-hosting documentation](https://livecodes.io/docs/features/self-hosting) for further up-to-date details.
@@ -54,8 +54,8 @@ npx cross-env DOCS_BASE_URL="/playground/docs/" npm run build
 5. Under **Permissions** &gt; **Repository permissions** &gt; **Actions**, select **Read and write**.
 
 6. Click the **Generate token** button at the bottom of the page.
-> [!warning] NOTICE
-> Your token will be generated. **Make sure to copy your personal access token now** as you will not be able to see it again.
+    > [!warning] NOTICE
+    > Your token will be generated. **Make sure to copy your personal access token now** as you will not be able to see it again.
 
 7. Go to `https://github.com/{your-username}/livecodes`
 
