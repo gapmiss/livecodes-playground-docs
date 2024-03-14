@@ -4,8 +4,6 @@ title: Self hosting
 updated: 2024-03-13
 ---
 
-## Self hosting
-
 See the [Self-hosting documentation](https://livecodes.io/docs/features/self-hosting) for further up-to-date details.
 
 ## Fork, clone and install
@@ -43,9 +41,9 @@ If you wish to host the app on Github pages (e.g. `https://{your-username}.githu
 npx cross-env DOCS_BASE_URL="/playground/docs/" npm run build
 ```
 
-> [!SUCCESS] Steps before deploying via `npm run deploy`
+#### Complete these steps before deploying via `npm run deploy`
 
-1. Under your Github profile, navigate to **Settings** > **Developer settings** > **Fine-grained tokens**.
+1. Under your Github profile, navigate to **Settings** &gt; **Developer settings** &gt; **Fine-grained tokens**.
 
 2. Click **Generate new  token**.
 
@@ -53,7 +51,7 @@ npx cross-env DOCS_BASE_URL="/playground/docs/" npm run build
 
 4. Under **Repository access**, select **Only select repositories** and select the appropriate repository.
 
-5. Under **Permissions** > **Repository permissions** > **Actions**, select **Read and write**.
+5. Under **Permissions** &gt; **Repository permissions** &gt; **Actions**, select **Read and write**.
 
 6. Click the **Generate token** button at the bottom of the page.
 > [!warning] NOTICE
@@ -75,7 +73,7 @@ npx cross-env DOCS_BASE_URL="/playground/docs/" npm run build
 
 14. Click **Pages** in the left-side menu
 
-15. Choose the **Source** > **Deploy from a branch**.
+15. Choose the **Source** &gt; **Deploy from a branch**.
 
 16. Select the `gh-pages` branch with `/(root)` folder and click the **Save** button.
 17. After some time (~5-30 minutes) the page will refresh with:
