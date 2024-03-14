@@ -19,8 +19,10 @@ div.search-icon > p {
 	hyphens: none;
 }
 
-.center article {
-	line-height: 3rem !important;
+.center article tbody,
+.center article li,
+.center article p {
+	line-height: 1.8rem !important;
 }
 
 a.internal {
