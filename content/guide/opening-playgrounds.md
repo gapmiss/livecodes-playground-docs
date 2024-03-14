@@ -2,7 +2,7 @@
 created: 2024-03-13
 title: Opening playgrounds
 description: Opening a playground with Livecodes Playground, a client-side code editor plugin for Obsidian.md.
-updated: 2024-03-13
+updated: 2024-03-14
 ---
 
 ## Open playground
@@ -31,10 +31,11 @@ Click the ribbon icon <svg xmlns="http://www.w3.org/2000/svg" width="22" height=
 
 Right-click (`ctrl`+`click`) playground config files (`*.JSON`) inside of the `playground` folder (see: [[getting-started#initial=setup|Getting started]]).
 
-  ![[LIVECODES-Obsidian-v1.5.8-2024-03-05-17.10.19.png]]
 
 > [!IMPORTANT]
-> The above context menu options are only available when all file extensions are detected by Obsidian. Open `Settings` &gt; `File and links` and enable `Detect all file extensions` ![screenshot of settings](LIVECODES-Obsidian-v1.5.8-2024-03-05-14.34.51.png)
+> Context menu options are only available when all file extensions are detected by Obsidian. Open `Settings` &gt; `File and links` and enable `Detect all file extensions` ![screenshot of settings](LIVECODES-Obsidian-v1.5.8-2024-03-05-14.34.51.png)
+
+![[LIVECODES-Obsidian-v1.5.8-2024-03-05-17.10.19.png]]
 
 ### Obsidian URI
 

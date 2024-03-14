@@ -53,6 +53,8 @@ Click the ribbon icon <svg xmlns="http://www.w3.org/2000/svg" width="22" height=
 
 ### File explorer context menu
 
+> [!IMPORTANT]
+> The below context menu options are only available when all file extensions are detected by Obsidian. Open `Settings` &gt; `File and links` and enable `Detect all file extensions` ![screenshot of settings](LIVECODES-Obsidian-v1.5.8-2024-03-05-14.34.51.png)
 #### Open in Livecodes
 
 Via right-click (`ctrl`+`click`) for supported file extensions. Supported extensions include `html`, `mdx`, `css`, `scss`, `js`, `jsx`, `ts`, `tsx`, `astro`, `svelte`.
