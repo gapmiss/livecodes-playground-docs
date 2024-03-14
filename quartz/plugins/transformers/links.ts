@@ -152,8 +152,9 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options> | undefined> =
                     dest,
                     transformOptions,
                   )
-                  node.properties.src = dest
-                  node.properties.alt = 'image alt goes here'
+                  let alt = node.properties.alt;
+                  node.properties.src = dest;
+                  node.properties.alt = alt;
                 }
               }
             })
