@@ -50,7 +50,8 @@ li::marker {
 		}
 	}
 }
-.data-line::before {
+[data-line]::before {
+	color: transparent;
 	display: none;
 }
 
