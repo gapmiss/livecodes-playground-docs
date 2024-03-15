@@ -74,14 +74,13 @@ pre {
  * CHROME only
  */
  .scroll-progress {
-	background-color: blue;
+	background-color: var(--tertiary);
 	height: 8px;
 	left: 0;
 	position: fixed;
 	top: 0;
 	transform: scaleX(0);
 	width: 100%;
-	
 	transform-origin: 0 50%;
   animation: progress auto linear;
   animation-timeline: scroll(root);

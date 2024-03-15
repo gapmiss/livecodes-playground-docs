@@ -215,7 +215,6 @@ export function renderPage(
     <html lang={lang}>
       <Head {...componentData} />
       <body data-slug={slug}>
-        <script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
         <div class="scroll-progress"></div>
         {/*<div class="scroll-indicator"></div>*/}
         <div id="quartz-root" class="page">
