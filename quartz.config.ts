@@ -21,7 +21,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "SN Pro Regular",
-        body: "SN Pro Regular",
+        body: "",
         code: "Monaspace Argon Var Regular",
       },
       colors: {
