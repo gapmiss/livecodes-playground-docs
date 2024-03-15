@@ -63,7 +63,35 @@ pre {
 }
 
 
+@keyframes progress {
+	to {
+		transform: scaleX(1);
+	}
+	
+}
 
+// body {
+// 	margin: 8px 0 0;
+// }
+
+// section {
+// 	height: 100dvh;
+// 	padding: .5vh 5vw;
+// }
+
+.scroll-progress {
+	background-color: blue;
+	height: 8px;
+	left: 0;
+	position: fixed;
+	top: 0;
+	transform: scaleX(0);
+	width: 100%;
+	
+	transform-origin: 0 50%;
+  animation: progress auto linear;
+  animation-timeline: scroll(root);
+}
 
 /**
  * src: https://codepen.io/ines/pen/KMGJrP
