@@ -239,6 +239,7 @@ export function renderPage(
           </Body>
           <Footer {...componentData} />
         </div>
+        <script src='https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js'></script>
       </body>
       {pageResources.js
         .filter((resource) => resource.loadTime === "afterDOMReady")
