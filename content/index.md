@@ -1,7 +1,6 @@
 ---
-title: Livecode Playground documentation
+title: "Livecode Playground documentation"
 created: 2024-03-13
-updated: 2024-03-14
 ---
 
 Livecodes playground, an open-source client-side code editor plugin for [Obsidian.md](https://obsidian.md).

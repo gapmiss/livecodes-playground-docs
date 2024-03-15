@@ -1,7 +1,6 @@
 ---
 created: 2024-03-13
-title: Creating playgrounds
-updated: 2024-03-14
+title: "Creating playgrounds"
 ---
 
 ## New playground

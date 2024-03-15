@@ -1,8 +1,7 @@
 ---
 created: 2024-03-13
-title: Opening playgrounds
-description: Opening a playground with Livecodes Playground, a client-side code editor plugin for Obsidian.md.
-updated: 2024-03-14
+title: "Opening playgrounds"
+description: "Opening a playground with Livecodes Playground, a client-side code editor plugin for Obsidian.md."
 ---
 
 ## Open playground

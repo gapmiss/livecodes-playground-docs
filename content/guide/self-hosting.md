@@ -1,9 +1,7 @@
 ---
 created: 2024-03-13
-title: Self hosting
-updated: 2024-03-14
+title: "Self hosting"
 ---
-
 
 See the [Self-hosting documentation](https://livecodes.io/docs/features/self-hosting) for further up-to-date details.
 
