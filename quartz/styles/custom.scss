@@ -70,16 +70,10 @@ pre {
 	
 }
 
-// body {
-// 	margin: 8px 0 0;
-// }
-
-// section {
-// 	height: 100dvh;
-// 	padding: .5vh 5vw;
-// }
-
-.scroll-progress {
+/**
+ * CHROME only
+ */
+ .scroll-progress {
 	background-color: blue;
 	height: 8px;
 	left: 0;
