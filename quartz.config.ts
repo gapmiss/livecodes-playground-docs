@@ -22,7 +22,7 @@ const config: QuartzConfig = {
       typography: {
         header: "SN Pro Regular",
         body: "SN Pro Regular",
-        code: "Monaspace Krypton Var Regular",
+        code: "Monaspace Argon Var Regular",
       },
       colors: {
         lightMode: {
