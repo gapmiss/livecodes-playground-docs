@@ -7,4 +7,4 @@ title: "Guide"
 - [[creating-playgrounds|Creating playgrounds]]
 - [[opening-playgrounds|Opening playgrounds]]
 - [[self-hosting|Self hosting]]
-- [[playground-editor|Playground editor]]
+- [[playground-view|Playground editor]]
