@@ -37,7 +37,8 @@ Default: `playgrounds/notes`
 
 ### Short share URL
 
-This requires sending the playground configuration (**including source code**) to a server that saves the code and provides a short Id which can be used to retrieve the playground. **It cannot then be deleted**.
+> [!warning] Notice
+> This requires sending the playground configuration (**including source code**) to a server that saves the code and provides a short Id which can be used to retrieve the playground. **It cannot then be deleted**.
 
 The app hosted on [https://livecodes.io](https://livecodes.io/) uses an API endpoint specifically provided to generate short URLs for LiveCodes share service. We will make every effort to keep that online and available for free use, so long as it is not abused.
 
@@ -71,28 +72,131 @@ It has a wide range of language support.
 
 Currently, only Monaco editor is supported. Wider editor support is planned.
 
-Please note that when using Codeium AI assistant, your code is sent to their servers for code completion. However, your code is not used for training their model. Check Codeium [FAQ](https://codeium.com/faq#Will-Codeium-regurgitate-private-code%3F) and [privacy policy](https://codeium.com/privacy-policy) for more details.
+> [!warning] Notice
+> Please note that when using Codeium AI assistant, your code is sent to their servers for code completion. However, your code is not used for training their model. Check Codeium [FAQ](https://codeium.com/faq#Will-Codeium-regurgitate-private-code%3F) and [privacy policy](https://codeium.com/privacy-policy) for more details.
 
 ## Editor settings
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-15-09.57.35-3.png]]
 
+### Code editor
+
+The following code editors are supported:
+
+**[monaco](https://microsoft.github.io/monaco-editor/)**: This is the code editor that powers **VS Code**. It is feature-rich and supports autocomplete with **IntelliSense** (including types for custom libraries).
+
+**[codemirror](https://codemirror.net/)**: Has many editing features, including autocomplete, with good **mobile support**.
+
+**[codejar](https://medv.io/codejar/)**: A **lightweight** code editor with very basic editing features. PrismJs is used for syntax highlighting. Please note that some editor settings are not supported in CodeJar.
+
+Default: **monaco**
+
+See [Livecodes docs](https://livecodes.io/docs/features/editor-settings#code-editor) for further details.
+
+### Editor theme
+
+Set the editor theme for each editor and on light/dark modes.
+
+### Playground height
+
+By default, the playground container height is set to `600` px.
+
+### Dark theme
+
+Sets the code editor to light/dark mode. Default: `dark`
+
+### Editor font
+
+Sets the code editor font family.
+
+### Editor font-size
+
+By default, the font-size is `12`.
+
+### Word wrap
+
+Enables word-wrap for long lines. Default: `disabled`
+
+### Line numbers
+
+Show line numbers in the code editor. Default: `enabled`
+
+### Use tabs
+
+If enabled, lines are indented with tabs instead of spaces. Also used in code formatting. Default: `disabled`
+
+### Tab size
+
+The number of spaces per indentation-level. Also used in code formatting. Default: `2`
+
+### Auto close brackets
+
+Use auto-complete to close brackets and quotes.
+
+### Auto update
+
+If `enabled`, the result page is automatically updated on code change, after time delay.
+
+### Delay
+
+Time delay (in milliseconds) following code change, after which the result page is updated (if Autoupdate is `enabled`).
+
+### Semi-colons
+
+Enables code formatter to use semi-colons.
+
+### Single quotes
+
+Enables code formatter to use single quotes instead of double quotes.
+
+### Trailing commas
+
+Enables code formatter to use trailing commas.
+
 ## Quick playground settings
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-15-09.57.35-4.png]]
 
+Set the default language preferences for the `Quick playground` command.
+
 ## Markdown templates
 
+Templates for creating notes in your vault and saving Github gists.
+
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-15-09.57.35-5.png]]
+
+Available ([Nunjucks](https://mozilla.github.io/nunjucks/templating.html)) variables:
+
+| variable              | replaced w/                                                                               |
+| --------------------- | ----------------------------------------------------------------------------------------- |
+| `{{appUrl}}`          | https://v26.livecodes.io/                                                                 |
+| `{{date}}`            | YYYY-MM-DD                                                                                |
+| `{{time}}`            | HH:mm                                                                                     |
+| `{{timeFull}}`        | HH:mm:ss                                                                                  |
+| `{{title}}`           | **title** from playground settings                                                        |
+| `{{descProperty}}`    | **description** from playground settings (formatted as a YAML multi-line string property) |
+| `{{descString}}`      | **description** from playground settings (formatted as a markdown string)                 |
+| `{{tagsList}}`        | **tags** from playground settings (formatted as a YAML list property)                     |
+| `{{tagsString}}`      | **tags** from playground settings (formatted as a markdown string)                        |
+| `{{obsidianUrl}}`     | An Obsidian **URI** to directly open the playground in Livecodes                          |
+| `{{head}}`            | **head** from playground settings                                                         |
+| `{{htmlAttrs}}`       | **html Attributes** from playground settings                                              |
+| `{{stylesheetsList}}` | markdown list of **stylesheet(s)** from external resources settings                       |
+| `{{scriptsList}}`     | markdown list of **script(s)** from external resources settings                           |
+| `{{cssPreset}}`       | **CSS Preset** from external resources settings                                           |
+| `{{markupLanguage}}`  | markup **language** from playground editor                                                |
+| `{{markupCode}}`      | markup **code** from playground editor                                                    |
+| `{{styleLanguage}}`   | style **language** from playground editor                                                 |
+| `{{styleCode}}`       | style **code** from playground editor                                                     |
+| `{{scriptLanguage}}`  | script **language** from playground editor                                                |
+| `{{scriptCode}}`      | script **code** from playground editor                                                    |
+| `{{htmlResults}}`     | **HTML results** from playground editor                                                   |
 
 ## Reload plugin
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-15-09.57.35-6.png]]
 
-## Support the developers
-
-![[LIVECODES-Obsidian-v1.5.8-2024-03-15-09.57.35-7.png]]
-
+Clicking the red `reload` icon <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-refresh-cw"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg> will close all current playgrounds and reload the Livecodes playground plugin.
 
 ---
 
