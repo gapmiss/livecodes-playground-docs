@@ -46,6 +46,6 @@ or:
 
 ---
 
-[[index|Previous: About]]
+[[index|Previous: Home]]
 
 [[creating-playgrounds|Next: Creating playgrounds]]
