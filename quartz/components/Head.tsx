@@ -36,11 +36,11 @@ export default (() => {
         {cfg.baseUrl && <meta property="og:image" content={ogImagePath} />}
         <meta property="og:width" content="1200" />
         <meta property="og:height" content="675" />
-        <link rel="icon" href="./static/favicon.ico" sizes="32x32" />
-        <link rel="icon" href="./static/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="./static/apple-touch-icon.png" />
+        <link rel="icon" href="https://${cfg.baseUrl}/static/favicon.ico" sizes="32x32" />
+        <link rel="icon" href="https://${cfg.baseUrl}/static/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="https://${cfg.baseUrl}/static/apple-touch-icon.png" />
         <link rel="icon" href={iconPath} />
-        <link rel="manifest" href="./static/manifest.webmanifest" />
+        <link rel="manifest" href="https://${cfg.baseUrl}/static/manifest.webmanifest" />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
         {css.map((href) => (
