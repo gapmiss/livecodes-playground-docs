@@ -55,7 +55,7 @@ Click the ribbon icon <svg xmlns="http://www.w3.org/2000/svg" width="22" height=
 > [!INFO] Note
 > The below context menu options are only available when all file extensions are detected by Obsidian. Open `Settings` &gt; `File and links` and enable `Detect all file extensions` ![screenshot of Obsidian settings](LIVECODES-Obsidian-v1.5.8-2024-03-05-14.34.51.webp)
 
-#### File explorer context menu
+#### File explorer file context menu
 
 ##### Open in Livecodes
 
