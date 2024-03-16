@@ -5,7 +5,7 @@ title: "Plugin settings"
 
 ## Settings
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-15-09.57.35-1.png]]
+![[LIVECODES-Obsidian-v1.5.11-2024-03-16-19.51.08.png]]
 
 ### App URL
 
@@ -35,7 +35,7 @@ Default: `playgrounds/notes`
 
 ## Sharing settings
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-15-09.57.35-2.png]]
+![[LIVECODES-Obsidian-v1.5.11-2024-03-16-19.51.24.png]]
 
 ### Short share URL
 
@@ -81,7 +81,7 @@ Currently, only Monaco editor is supported. Wider editor support is planned.
 
 ## Editor settings
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-15-09.57.35-3.png]]
+![[LIVECODES-Obsidian-v1.5.11-2024-03-16-19.51.47.png]]
 
 ### Code editor
 
@@ -161,7 +161,7 @@ Enables code formatter to use trailing commas.
 
 ## Quick playground settings
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-15-09.57.35-4.png]]
+![[LIVECODES-Obsidian-v1.5.11-2024-03-16-19.52.19.png]]
 
 Set the default language preferences for the `Quick playground` command.
 
@@ -171,7 +171,7 @@ Set the default language preferences for the `Quick playground` command.
 
 Templates for creating notes in your vault and saving Github gists.
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-15-09.57.35-5.png]]
+![[LIVECODES-Obsidian-v1.5.11-2024-03-16-19.52.34.png]]
 
 Available ([Nunjucks](https://mozilla.github.io/nunjucks/templating.html)) variables:
 
@@ -205,7 +205,7 @@ Available ([Nunjucks](https://mozilla.github.io/nunjucks/templating.html)) varia
 
 ## Reload plugin
 
-![[LIVECODES-Obsidian-v1.5.8-2024-03-15-09.57.35-6.png]]
+![[LIVECODES-Obsidian-v1.5.11-2024-03-16-19.52.46.png]]
 
 Clicking the red `reload` icon <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-refresh-cw"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg> will close all current playgrounds and reload the Livecodes playground plugin.
 
