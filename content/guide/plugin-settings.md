@@ -3,7 +3,7 @@ created: 2024-03-15
 title: "Plugin settings"
 ---
 
-## Main settings
+## Settings
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-15-09.57.35-1.png]]
 
@@ -30,6 +30,8 @@ Default: `enabled`
 Select a vault folder to save playground notes (Markdown).
 
 Default: `playgrounds/notes`
+
+---
 
 ## Sharing settings
 
@@ -74,6 +76,8 @@ Currently, only Monaco editor is supported. Wider editor support is planned.
 
 > [!warning] Notice
 > Please note that when using Codeium AI assistant, your code is sent to their servers for code completion. However, your code is not used for training their model. Check Codeium [FAQ](https://codeium.com/faq#Will-Codeium-regurgitate-private-code%3F) and [privacy policy](https://codeium.com/privacy-policy) for more details.
+
+---
 
 ## Editor settings
 
@@ -153,11 +157,15 @@ Enables code formatter to use single quotes instead of double quotes.
 
 Enables code formatter to use trailing commas.
 
+---
+
 ## Quick playground settings
 
 ![[LIVECODES-Obsidian-v1.5.8-2024-03-15-09.57.35-4.png]]
 
 Set the default language preferences for the `Quick playground` command.
+
+---
 
 ## Markdown templates
 
@@ -191,6 +199,9 @@ Available ([Nunjucks](https://mozilla.github.io/nunjucks/templating.html)) varia
 | `{{scriptLanguage}}`  | script **language** from playground editor                                                |
 | `{{scriptCode}}`      | script **code** from playground editor                                                    |
 | `{{htmlResults}}`     | **HTML results** from playground editor                                                   |
+
+
+---
 
 ## Reload plugin
 
