@@ -16,12 +16,12 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
 
     // const iconPath = joinSegments(baseDir, "static/icon.png")
-    const iconPath = joinSegments(baseDir, "static/icon.svg")
+    // const iconPath = joinSegments(baseDir, "static/icon.svg")
     const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
     const favIcon = `https://${cfg.baseUrl}/static/favicon.ico`
-    const icon = `https://${cfg.baseUrl}/static/icon.svg`
+    // const icon = `https://${cfg.baseUrl}/static/icon.svg`
     const appleTouchIcon = `https://${cfg.baseUrl}/static/apple-touch-icon.png`
-    const webManifest = `https://${cfg.baseUrl}/static/manifest.webmanifest`
+    const webManifest = `https://${cfg.baseUrl}/static/site.webmanifest`
     return (
       <head>
         <title>Livecodes Playground docs - {title}</title>
@@ -39,11 +39,20 @@ export default (() => {
         {cfg.baseUrl && <meta property="og:image" content={ogImagePath} />}
         <meta property="og:width" content="1200" />
         <meta property="og:height" content="675" />
-        <link rel="icon" href={favIcon} sizes="32x32" />
-        <link rel="icon" href={icon} type="image/svg+xml" />
-        <link rel="apple-touch-icon" href={appleTouchIcon} />
-        <link rel="icon" href={iconPath} />
+
+        <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href={webManifest} />
+
+
+
+        <link rel="icon" href={favIcon} sizes="32x32" />
+        {/* <link rel="icon" href={icon} type="image/svg+xml" /> */}
+        {/* <link rel="apple-touch-icon" href={appleTouchIcon} /> */}
+        {/* <link rel="icon" href={iconPath} /> */}
+        {/* <link rel="manifest" href={webManifest} /> */}
+
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
         {css.map((href) => (
