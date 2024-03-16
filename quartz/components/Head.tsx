@@ -18,7 +18,10 @@ export default (() => {
     // const iconPath = joinSegments(baseDir, "static/icon.png")
     const iconPath = joinSegments(baseDir, "static/icon.svg")
     const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
-
+    const favIcon = `https://${cfg.baseUrl}/static/favicon.ico`
+    const icon = `https://${cfg.baseUrl}/static/icon.svg`
+    const appleTouchIcon = `https://${cfg.baseUrl}/static/apple-touch-icon.png`
+    const webManifest = `https://${cfg.baseUrl}/static/manifest.webmanifest`
     return (
       <head>
         <title>Livecodes Playground docs - {title}</title>
@@ -36,11 +39,11 @@ export default (() => {
         {cfg.baseUrl && <meta property="og:image" content={ogImagePath} />}
         <meta property="og:width" content="1200" />
         <meta property="og:height" content="675" />
-        <link rel="icon" href="https://${cfg.baseUrl}/static/favicon.ico" sizes="32x32" />
-        <link rel="icon" href="https://${cfg.baseUrl}/static/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="https://${cfg.baseUrl}/static/apple-touch-icon.png" />
+        <link rel="icon" href={favIcon} sizes="32x32" />
+        <link rel="icon" href={icon} type="image/svg+xml" />
+        <link rel="apple-touch-icon" href={appleTouchIcon} />
         <link rel="icon" href={iconPath} />
-        <link rel="manifest" href="https://${cfg.baseUrl}/static/manifest.webmanifest" />
+        <link rel="manifest" href={webManifest} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
         {css.map((href) => (
