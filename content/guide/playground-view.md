@@ -129,3 +129,10 @@ Default: `lang="en" class=""`
 
 In-app help modal with the same above information.
 
+
+
+---
+
+[[opening-playgrounds|Previous: Opening playgrounds]]
+
+[[plugin-settings|Next: Plugin settings]]

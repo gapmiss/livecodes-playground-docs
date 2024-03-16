@@ -53,6 +53,6 @@ For example: `obsidian://playground?vault=Playground&gistUrl=https%3A%2F%2Fgist.
 
 ---
 
-[[creating-playgrounds|Previous: Creating Playground]]
+[[creating-playgrounds|Previous: Creating playgrounds]]
 
-%% [[opening-playgrounds|Next: Opening playgrounds]] %%
+[[playground-view|Next: Playground view]]

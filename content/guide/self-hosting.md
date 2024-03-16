@@ -80,5 +80,11 @@ npx cross-env DOCS_BASE_URL="/playground/docs/" npm run build
     - Your site is live at `https://{your-username}.github.io/livecodes/`
     - Click the **Visit site** button to see the deployed Livecodes instance hosted by Github
 
+
+
+
 ---
 
+[[plugin-settings|Previous: Plugins settings]]
+
+%% [[playground-view|Next: Playground view]] %%
