@@ -30,7 +30,7 @@ export default {
       darkMode: "Dark mode",
     },
     explorer: {
-      title: "Livecodes Playground",
+      title: "Explore",
     },
     footer: {
       createdWith: "Powered by",
