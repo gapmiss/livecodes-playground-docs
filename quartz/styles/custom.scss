@@ -67,14 +67,11 @@ td > code {
 	font-size: smaller;
 }
 
-
 @keyframes progress {
 	to {
 		transform: scaleX(1);
-	}
-	
+	}	
 }
-
 /**
  * CHROME only
  */
@@ -92,35 +89,3 @@ td > code {
 		animation-timeline: scroll(root);
 	}
 }
-
-/**
- * src: https://codepen.io/ines/pen/KMGJrP
- */
-/*
- @supports (height: 100vh) {
-  .scroll-indicator {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: linear-gradient(to right top, var(--secondary), var(--tertiary) 50%, transparent 50%) no-repeat;
-    z-index: -1;
-    // background-size: 100% calc(100% - 100vh + 10px);
-    background-size: 100% calc(100% - 100vh);
-  }
-  .scroll-indicator:before {
-    content: "";
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    top: 10px;
-		z-index: 999;
-  }
-}
-body {
-  position: relative !important;
-  margin: 0 !important;
-}
-*/
