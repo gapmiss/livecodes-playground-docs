@@ -64,6 +64,8 @@ After creating a gist, you cannot convert it from public to secret. However, a s
 
 See [Github gist documentation](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists) page on creating gists for further up-to-date details.
 
+Default: `disabled`
+
 ### Enable AI
 
 LiveCodes supports AI-powered code completion, completely for **free** with **no account or API token required**, powered by [Codeium](https://codeium.com/), the ultrafast Copilot alternative.
@@ -76,6 +78,8 @@ Currently, only Monaco editor is supported. Wider editor support is planned.
 
 > [!warning] Notice
 > Please note that when using Codeium AI assistant, your code is sent to their servers for code completion. However, your code is not used for training their model. Check Codeium [FAQ](https://codeium.com/faq#Will-Codeium-regurgitate-private-code%3F) and [privacy policy](https://codeium.com/privacy-policy) for more details.
+
+Default: `disabled`
 
 ---
 
@@ -99,7 +103,7 @@ See [Livecodes docs](https://livecodes.io/docs/features/editor-settings#code-ed
 
 ### Editor theme
 
-Set the editor theme for each editor and on light/dark modes.
+Set the editor theme for each editor and on light/dark modes. Default: `enabled`
 
 ### Playground height
 
