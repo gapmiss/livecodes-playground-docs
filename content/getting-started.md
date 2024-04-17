@@ -48,6 +48,6 @@ or:
 
 ---
 
-[[index|Previous: Home]]
+[[Quartz/index|Previous: Home]]
 
 [[creating-playgrounds|Next: Creating playgrounds]]
